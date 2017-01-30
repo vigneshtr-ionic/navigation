@@ -1,0 +1,1 @@
+var mapModule = angular.module("mapmodule", ["ngSanitize","ngMaterial","ngAnimate"])
