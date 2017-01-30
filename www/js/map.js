@@ -1,4 +1,5 @@
 var map;
+
 function initMap() {
     // Create a map object and specify the DOM element for display.
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -22,14 +23,17 @@ $('.single-item').slick({
 
 
 function initialize() {
-    navigator.geolocation.getCurrentPosition(function (position) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+        var height = window.innerHeight -  $(".map").offset().top 
+        $(".map").height(height);
         var pyrmont = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
         map = new google.maps.Map(document.getElementById('map'), {
             center: pyrmont,
-            zoom: 15,
+            zoom: 16,
             scrollwheel: false
 
         });
+
     })
 
 

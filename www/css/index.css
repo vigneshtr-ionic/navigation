@@ -150,12 +150,11 @@ h1 {
 }
 
 .images {
-    text-align: center;
-    padding: 10px;
+    text-align: center; 
 }
 
 .title {
-    margin-top: 5px;
+    margin: 5px;
 }
 
 .wrapper {
@@ -177,6 +176,15 @@ button.slick-arrow {
     padding: 0 6px !important;
     margin: 0px 5px !important;
 }
-.fa:before{
+
+.fa:before {
     font-size: 20px;
+}
+
+.md-button.md-fab {
+    background: #45e293 !important;
+}
+
+button.md-button.md-fab.md-focused {
+    background: #10864b !important;
 }
