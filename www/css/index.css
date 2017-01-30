@@ -142,9 +142,9 @@ h1 {
 
 .slider {
     background-color: #4FBC85;
-    width: 200px;
+    width: 250px;
     border: 3px solid #4FBC85;
-    margin: 25px;
+    margin: 10px;
     border-radius: 6px;
     display: inline-block;
 }
@@ -165,4 +165,18 @@ h1 {
 
 button.slick-arrow {
     display: none !important;
+}
+
+.md-button.md-fab.md-mini {
+    line-height: 10px !important;
+    width: 35px !important;
+    height: 29px !important;
+}
+
+.md-button {
+    padding: 0 6px !important;
+    margin: 0px 5px !important;
+}
+.fa:before{
+    font-size: 20px;
 }
